@@ -3,19 +3,19 @@ import {StyleSheet} from 'react-native'
 const styles = StyleSheet.create({
     formContext:{
         width: "100%",
-        height: "100%",
+        height: "90%",
         bottom: 0,
-        backgroundColor: "#FFF",
-        alignItems: "center",
-        borderTopLeftRadius:30,
-        borderTopRightRadius: 30,
-        marginTop: 10,
+        backgroundColor: "#FFF",  
+        borderRadius:30,
+        marginTop: 20,
+        // justifyContent: 'space-around',
+        // paddingTop: 15,
     },
     form:{
         width: "100%",
         height: "auto",
         marginTop: 30,
-        padding: 10,
+        // padding: 10,
     },
     label:{
         color: "#000",
@@ -46,6 +46,12 @@ const styles = StyleSheet.create({
     textButtonCalculator:{
         fontSize: 20,
         color: "#FFF",
+    },
+    errorMessage:{
+        fontSize: 12,
+        color: 'red',
+        fontWeight: 'bold',
+        paddingLeft: 20,
     }
 });
 
